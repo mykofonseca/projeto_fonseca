@@ -45,7 +45,7 @@ h3 {
 }
 
 .wrapperContainer-dark {
-    background-color: #2a2a2a;
+    background-color: #f5f5f5;
     color: #fafafa;
 }
 
@@ -99,7 +99,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20rem;
 }
 
 .hero_title {
@@ -107,7 +106,7 @@ h3 {
 }
 
 .wrapperContainer-hero {
-    background-image: linear-gradient(transparent, rgb(255,255,86));
+    background-color: red;
 }
 
 .cursos {
@@ -187,4 +186,14 @@ h3 {
 
 .footer a {
     color: inherit;
+}
+
+
+.header img {
+    max-width: 10rem;
+}
+
+.container video {
+    max-height: 70rem;
+    margin: auto;
 }
