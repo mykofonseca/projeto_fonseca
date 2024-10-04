@@ -243,6 +243,11 @@ h5 {
     padding: 6rem 0;
 }
 
+.service {
+    display: flex;
+    line-height: 2.5rem;
+}
+
 .about_title {
     font-size: 3.2rem;
     margin-top: 2rem;
@@ -284,18 +289,13 @@ h5 {
     max-width: 12rem;
 }
 
-.heroBanner video {
-    max-width: 60%;
-    border-radius: 1rem;
-}
-
 .aboutBanner video {
     max-width: 70%;
     border-radius: 1rem;
 }
 
 .heroBanner video {
-    max-width: 50%;
+    max-width: 55%;
     border-radius: 1rem;
 }
 
@@ -346,7 +346,7 @@ video:hover {
     color: var(--secondary-color) ;
     background-color: var(--primary-color);
     padding: 1rem;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     text-decoration: none;
 }
 
@@ -354,7 +354,7 @@ video:hover {
     color: var(--primary-color);
     background-color: var(--secondary-color);
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     text-decoration: none;
 }
 
@@ -363,7 +363,7 @@ video:hover {
     background-color: var(--primary-color);
     border: 1px solid var(--secondary-color);
     padding: 1rem;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     text-decoration: none;
 }
 
@@ -372,10 +372,20 @@ video:hover {
     background-color: var(--secondary-color);
     border: 1px solid var(--primary-color);
     padding: 1rem;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     text-decoration: none;
 }
 
 .underlined {
     text-decoration: underline;
+}
+
+.bar {
+    font-size: 2rem;
+    pointer-events: none;
+}
+
+.little_container {
+    max-width: 80rem;
+    margin: 0 auto;
 }
